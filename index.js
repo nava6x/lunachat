@@ -10,7 +10,7 @@ const app = express();
 
 // Enable CORS for the HTTP part
 app.use(cors({
-  origin: 'https://676095f68996fd859c39eb81--incredible-gingersnap-40bf5b.netlify.app/', // Netlify URL
+  origin: 'https://676097c6eaaae56a99aa5434--incredible-gingersnap-40bf5b.netlify.app/', // Netlify URL
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
