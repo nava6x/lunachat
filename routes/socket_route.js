@@ -1,7 +1,7 @@
 const socketIo = require('socket.io');
 // require('dotenv').config();
 
-const frontendUrl = 'https://676093f28996fd834239eb39--golden-douhua-9cb439.netlify.app/'; 
+const frontendUrl = 'https://676095f68996fd859c39eb81--incredible-gingersnap-40bf5b.netlify.app/'; 
 
 module.exports = (server) => {
   const io = socketIo(server, {
