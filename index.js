@@ -21,6 +21,10 @@ const server = http.createServer(app);
 // Use the socketRoutes to handle Socket.io functionality
 socketRoutes(server);
 
+app.get('/api', (req, res) => {
+  res.json({ message: 'Hello, this is a GET API response!' });
+});
+
 // Start the server
 server.listen(1200, () => {
   console.log('Server running on http://localhost:1200');
