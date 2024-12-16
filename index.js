@@ -10,8 +10,8 @@ const app = express();
 
 // Enable CORS for the HTTP part
 app.use(cors({
-  origin: "https://6760688a222b23305dc967be--golden-douhua-9cb439.netlify.app", // Your frontend URL
-  methods: ['GET', 'POST'],       // Allow specific methods
+  origin: 'https://6760688a222b23305dc967be--golden-douhua-9cb439.netlify.app', // Netlify URL
+  methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
 
