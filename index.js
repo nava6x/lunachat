@@ -3,14 +3,14 @@ const http = require('http');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const socketRoutes = require('./routes/socket_route'); // Import the socketRoutes module
-require('dotenv').config();
+// require('dotenv').config();
 
-const frontend = process.env.FRONT_END
+// const frontend = process.env.FRONT_END
 const app = express();
 
 // Enable CORS for the HTTP part
 app.use(cors({
-  origin: frontend, // Your frontend URL
+  origin: "https://6760688a222b23305dc967be--golden-douhua-9cb439.netlify.app", // Your frontend URL
   methods: ['GET', 'POST'],       // Allow specific methods
   allowedHeaders: ['Content-Type'],
 }));
